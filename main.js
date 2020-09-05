@@ -24,6 +24,8 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/channel/UCvY-ehTz17Wrav4Rr5wd24A');
     }else if (command == 'specs'){
         message.channel.send('i9 9900K,RTX 3070,32GB Ram');
+    }else if (command == 'native place'){
+        message.channel.send('Kerala');
     }else if (command == 'gf'){
         message.channel.send('Antreasa');
     }else if (command== 'help'){
